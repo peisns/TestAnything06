@@ -8,8 +8,9 @@
 import UIKit
 
 class ImageViewController: UIViewController {
-
+    
     let mainView = ImageView()
+    let viewModel = ImageViewModel()
     
     override func loadView() {
         view = mainView
@@ -18,9 +19,17 @@ class ImageViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
 
+        mainView.searchBar.delegate = self
+
         setCollectionViewConfigure()
+
+        viewModel.list.bind { value in
+            DispatchQueue.main.sync {
+                self.mainView.collectionView.reloadData()
+            }
+        }
     }
-    
+        
     private func setCollectionViewConfigure() {
         mainView.collectionView.delegate = self
         mainView.collectionView.dataSource = self
@@ -30,12 +39,23 @@ class ImageViewController: UIViewController {
 
 extension ImageViewController: UICollectionViewDelegate, UICollectionViewDataSource {
     func collectionView(_ collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
-        return 8
+        return viewModel.list.value.count
     }
     
     func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
         guard let cell = collectionView.dequeueReusableCell(withReuseIdentifier: "ImageCollectionViewCell", for: indexPath) as? ImageCollectionViewCell else { return UICollectionViewCell() }
-        cell.backgroundColor = .red
+        cell.setImage(url: viewModel.list.value[indexPath.item].url)
         return cell
+    }
+}
+
+extension ImageViewController: UISearchBarDelegate {
+    func searchBarSearchButtonClicked(_ searchBar: UISearchBar) {
+        print("search button clicked")
+        let query = mainView.searchBar.text ?? ""
+        mainView.searchBar.searchTextField.text = ""
+        mainView.searchBar.resignFirstResponder()
+        viewModel.fetch(query: query)
+        
     }
 }
