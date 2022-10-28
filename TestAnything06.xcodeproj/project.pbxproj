@@ -15,13 +15,13 @@
 		353291EF29092B1D0011FDE5 /* APIKey.swift in Sources */ = {isa = PBXBuildFile; fileRef = 353291EE29092B1D0011FDE5 /* APIKey.swift */; };
 		353291F329092BC80011FDE5 /* APIManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 353291F229092BC80011FDE5 /* APIManager.swift */; };
 		353291F6290A03540011FDE5 /* SwiftyJSON in Frameworks */ = {isa = PBXBuildFile; productRef = 353291F5290A03540011FDE5 /* SwiftyJSON */; };
-		35329201290A33A80011FDE5 /* MemoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35329200290A33A80011FDE5 /* MemoViewController.swift */; };
-		35329204290A33BF0011FDE5 /* MemoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35329203290A33BF0011FDE5 /* MemoView.swift */; };
-		35329206290A33CA0011FDE5 /* MemoViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35329205290A33CA0011FDE5 /* MemoViewModel.swift */; };
-		35329208290A33D50011FDE5 /* MemoModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35329207290A33D50011FDE5 /* MemoModel.swift */; };
-		3532920A290A33F40011FDE5 /* MemoTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35329209290A33F40011FDE5 /* MemoTableViewCell.swift */; };
+		35329201290A33A80011FDE5 /* SecondImageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35329200290A33A80011FDE5 /* SecondImageViewController.swift */; };
+		35329204290A33BF0011FDE5 /* SecondImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35329203290A33BF0011FDE5 /* SecondImageView.swift */; };
+		35329206290A33CA0011FDE5 /* SecondImageViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35329205290A33CA0011FDE5 /* SecondImageViewModel.swift */; };
+		35329208290A33D50011FDE5 /* SecondImageModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35329207290A33D50011FDE5 /* SecondImageModel.swift */; };
 		3532920D290A35F20011FDE5 /* Realm in Frameworks */ = {isa = PBXBuildFile; productRef = 3532920C290A35F20011FDE5 /* Realm */; };
 		3532920F290A35F20011FDE5 /* RealmSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 3532920E290A35F20011FDE5 /* RealmSwift */; };
+		35329211290AAC740011FDE5 /* SecondImageTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35329210290AAC740011FDE5 /* SecondImageTableViewCell.swift */; };
 		35AEC2E32907FF3A00E96D9E /* BasicMVVMViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35AEC2E22907FF3A00E96D9E /* BasicMVVMViewController.swift */; };
 		35AEC2E52907FF4F00E96D9E /* BasicMVVMView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35AEC2E42907FF4F00E96D9E /* BasicMVVMView.swift */; };
 		35AEC2E72908044200E96D9E /* BasicMVVMViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35AEC2E62908044200E96D9E /* BasicMVVMViewModel.swift */; };
@@ -45,11 +45,11 @@
 		350581372907EA95003C39AD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		353291EE29092B1D0011FDE5 /* APIKey.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIKey.swift; sourceTree = "<group>"; };
 		353291F229092BC80011FDE5 /* APIManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIManager.swift; sourceTree = "<group>"; };
-		35329200290A33A80011FDE5 /* MemoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemoViewController.swift; sourceTree = "<group>"; };
-		35329203290A33BF0011FDE5 /* MemoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemoView.swift; sourceTree = "<group>"; };
-		35329205290A33CA0011FDE5 /* MemoViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemoViewModel.swift; sourceTree = "<group>"; };
-		35329207290A33D50011FDE5 /* MemoModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemoModel.swift; sourceTree = "<group>"; };
-		35329209290A33F40011FDE5 /* MemoTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemoTableViewCell.swift; sourceTree = "<group>"; };
+		35329200290A33A80011FDE5 /* SecondImageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondImageViewController.swift; sourceTree = "<group>"; };
+		35329203290A33BF0011FDE5 /* SecondImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondImageView.swift; sourceTree = "<group>"; };
+		35329205290A33CA0011FDE5 /* SecondImageViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondImageViewModel.swift; sourceTree = "<group>"; };
+		35329207290A33D50011FDE5 /* SecondImageModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondImageModel.swift; sourceTree = "<group>"; };
+		35329210290AAC740011FDE5 /* SecondImageTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondImageTableViewCell.swift; sourceTree = "<group>"; };
 		35AEC2E22907FF3A00E96D9E /* BasicMVVMViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BasicMVVMViewController.swift; sourceTree = "<group>"; };
 		35AEC2E42907FF4F00E96D9E /* BasicMVVMView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BasicMVVMView.swift; sourceTree = "<group>"; };
 		35AEC2E62908044200E96D9E /* BasicMVVMViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BasicMVVMViewModel.swift; sourceTree = "<group>"; };
@@ -99,7 +99,7 @@
 				35AEC2E12907FF2300E96D9E /* BasicMVVM */,
 				35AEC2F0290920CA00E96D9E /* Image */,
 				35AEC2E8290804C600E96D9E /* Observable.swift */,
-				35329202290A33AE0011FDE5 /* Memo */,
+				35329202290A33AE0011FDE5 /* SecondImage */,
 				353291EE29092B1D0011FDE5 /* APIKey.swift */,
 				353291F229092BC80011FDE5 /* APIManager.swift */,
 				350581292907EA93003C39AD /* AppDelegate.swift */,
@@ -112,16 +112,16 @@
 			path = TestAnything06;
 			sourceTree = "<group>";
 		};
-		35329202290A33AE0011FDE5 /* Memo */ = {
+		35329202290A33AE0011FDE5 /* SecondImage */ = {
 			isa = PBXGroup;
 			children = (
-				35329203290A33BF0011FDE5 /* MemoView.swift */,
-				35329200290A33A80011FDE5 /* MemoViewController.swift */,
-				35329205290A33CA0011FDE5 /* MemoViewModel.swift */,
-				35329207290A33D50011FDE5 /* MemoModel.swift */,
-				35329209290A33F40011FDE5 /* MemoTableViewCell.swift */,
+				35329203290A33BF0011FDE5 /* SecondImageView.swift */,
+				35329200290A33A80011FDE5 /* SecondImageViewController.swift */,
+				35329205290A33CA0011FDE5 /* SecondImageViewModel.swift */,
+				35329207290A33D50011FDE5 /* SecondImageModel.swift */,
+				35329210290AAC740011FDE5 /* SecondImageTableViewCell.swift */,
 			);
-			path = Memo;
+			path = SecondImage;
 			sourceTree = "<group>";
 		};
 		35AEC2E12907FF2300E96D9E /* BasicMVVM */ = {
@@ -232,20 +232,20 @@
 				35AEC2EB29080D7000E96D9E /* BasicMVVMModel.swift in Sources */,
 				3505812E2907EA93003C39AD /* ViewController.swift in Sources */,
 				35AEC2ED290828D600E96D9E /* BasicMVVMTableViewCell.swift in Sources */,
-				35329208290A33D50011FDE5 /* MemoModel.swift in Sources */,
+				35329211290AAC740011FDE5 /* SecondImageTableViewCell.swift in Sources */,
+				35329208290A33D50011FDE5 /* SecondImageModel.swift in Sources */,
 				353291EF29092B1D0011FDE5 /* APIKey.swift in Sources */,
 				3505812A2907EA93003C39AD /* AppDelegate.swift in Sources */,
 				3505812C2907EA93003C39AD /* SceneDelegate.swift in Sources */,
 				35AEC2F4290920E500E96D9E /* ImageViewModel.swift in Sources */,
-				3532920A290A33F40011FDE5 /* MemoTableViewCell.swift in Sources */,
 				35AEC2E9290804C600E96D9E /* Observable.swift in Sources */,
-				35329204290A33BF0011FDE5 /* MemoView.swift in Sources */,
+				35329204290A33BF0011FDE5 /* SecondImageView.swift in Sources */,
 				35AEC2E32907FF3A00E96D9E /* BasicMVVMViewController.swift in Sources */,
 				35AEC2E52907FF4F00E96D9E /* BasicMVVMView.swift in Sources */,
 				35AEC2F82909210D00E96D9E /* ImageCollectionViewCell.swift in Sources */,
-				35329201290A33A80011FDE5 /* MemoViewController.swift in Sources */,
+				35329201290A33A80011FDE5 /* SecondImageViewController.swift in Sources */,
 				35AEC2F2290920DA00E96D9E /* ImageViewController.swift in Sources */,
-				35329206290A33CA0011FDE5 /* MemoViewModel.swift in Sources */,
+				35329206290A33CA0011FDE5 /* SecondImageViewModel.swift in Sources */,
 				35AEC2F6290920F100E96D9E /* ImageModel.swift in Sources */,
 				35AEC2E72908044200E96D9E /* BasicMVVMViewModel.swift in Sources */,
 			);
